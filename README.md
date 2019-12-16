@@ -1,7 +1,7 @@
 # wax-eos-ibc
 WAX-EOS Inter Blockchain Communiction framework
 
-
+![WAX-EOS IBC High Level Diagram](waxeosibc.png)
 
 1. A WAX account (user's source account) transfers tokens to WAX IBC contract specifying target chain (EOS) and account
 
