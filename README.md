@@ -12,5 +12,5 @@
 7. EOS IBC Oracle generates signature for the executed records and updates its status to confirmed.
 8. [8.1, 8.2.] Gate IBC Oracle reads the confirmed record along w/ trx's signature proof and calls a corresponding action of WAX IBC contract.
 9. WAX IBC contract verifies the requests parameters,and updates the records as complete. 
-10. [Optional] Token/Asset owner at WAX chain, checks for complete actions and burns/ or locks the corresponding amounts.
-11. [Optional] Token/Asset owner at EOS checks for complete actions by EOS WAX IBC Contract and mints/ or unlocks the corresponding amounts.
+10. *[Optional]* Token/Asset owner at WAX chain, checks for complete actions and burns/ or locks the corresponding amounts.
+11. *[Optional]* Token/Asset owner at EOS checks for complete actions by EOS WAX IBC Contract and mints/ or unlocks the corresponding amounts.
